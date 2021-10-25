@@ -20,9 +20,9 @@ public class LAS {
     public static int longest_alternating_subarray(int n, int[] A) {
         // n: length of A
         // A: an array of distinct integers (consider that the array starts with
-    	  //	  index 1 in this example)
+    	//	  index 1 in this example)
         
-    	  // ArrayList to store the boolean sequence
+    	// ArrayList to store the boolean sequence
         ArrayList<Boolean> sequence = new ArrayList<Boolean>();
         
         // variables
